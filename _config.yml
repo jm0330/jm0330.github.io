@@ -131,6 +131,7 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
+follow_label_hide: true
 footer:
   links:
     - label: "Twitter"
