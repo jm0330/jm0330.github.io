@@ -20,7 +20,7 @@ locale                   : "ko-KR" # "en-US"
 title                    : "KISTI 국가슈퍼컴퓨팅센터"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "KISTI"
+name                     : "the KISTI National Supercomputing Center"
 description              : "An amazing website."
 url                      : "https://jm0330.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
