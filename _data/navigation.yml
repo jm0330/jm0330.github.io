@@ -10,3 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "블로그"
+    url: /blog/
+  - title: "지침서"
+    url: /guidebook/
