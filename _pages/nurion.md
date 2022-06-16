@@ -1,10 +1,15 @@
 ---
 permalink: /nurion/
-title: "누리온(누리온)"
+title: "누리온 시스템 사양 및 구성"
 description: 기술지원 > 지침서 > 사용법 > 누리온 > 누리온 시스템 사양 및 구성 > 가. 개요
+layouts_gallery:
+  - url: /assets/images/46cGZjtaR1zSlum.png
+    image_path: /assets/images/46cGZjtaR1zSlum.png
+    alt: "누리온 구성도"
+last_modified_at: 2020-06-25T11:59:26-04:00
 ---
 
-# 가. 개요
+## 가. 개요
 
 KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬 클러스터 시스템으로 이론최고성능(Rpeak) 25.7PFlops(4호기 Tachyon2의 약 70배)의 연산처리 성능을 갖고 있다.
 
@@ -20,7 +25,7 @@ KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬
 
 또한 누리온은 이러한 연구 개발들을 지원하기 위한 다양한 종류의 소프트웨어를 탑재하고 지속적으로 업그레이드 하고 있으며, 고성능 하드웨어와 유기적인 연동을 통해 최고의 생산성을 유지하기 위해 노력하고 있다. 아울러 최적ㆍ병렬화를 비롯한 다양한 사용자 지원과 거대 문제 및 난제 해결 등을 위한 대형 과제 발굴을 통해서 국가 과학기술 발전과 지능정보사회 구현의 핵심 인프라로서 역할을 수행하고자 한다.
 
-![\[누리온 구성도\]](<../../../../.gitbook/assets/누리온 구성도.png>)
+![\[누리온 구성도\]](</assets/images/46cGZjtaR1zSlum.png>)
 
 <table class="common-table-03 txt-ac" border="0" cellspacing="0" cellpadding="0"><colgroup><col style="width: 30%;"></colgroup><colgroup><col style="width: 30%;"></colgroup><colgroup><col style="width: 20%;"></colgroup><colgroup><col style="width: 20%;"></colgroup>
 <thead>
