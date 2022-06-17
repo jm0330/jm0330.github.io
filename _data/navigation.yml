@@ -37,19 +37,19 @@ ksc:
         url: / 
       - title: "[별첨4] Lustre stripe 사용법"
         url: / 
-      - title: "[별첨5] Lustre stripe 사용법"
+      - title: "[별첨5] TSMSF를 이용한 데이터 아카이빙(Archiving) 사용법"
         url: / 
-      - title: "[별첨6] Lustre stripe 사용법"
+      - title: "[별첨6] MVAPICH2 성능 최적화 옵션 사용법"
         url: / 
-      - title: "[별첨7] Lustre stripe 사용법"
+      - title: "[별첨7] 딥러닝 프레임워크 병렬화 사용법"
         url: / 
-      - title: "[별첨8] Lustre stripe 사용법"
+      - title: "[별첨8] 공통라이브러리 목록"
         url: / 
-      - title: "[별첨9] Lustre stripe 사용법"
+      - title: "[별첨9] 데스크톱 가상화(VDI) 사용법"
         url: / 
-      - title: "[별첨10] Lustre stripe 사용법"
+      - title: "[별첨10] 버스트버퍼(Burst Buffer) 사용법"
         url: / 
-      - title: "[별첨11] Lustre stripe 사용법"
+      - title: "[별첨11] 플랫 노드(Flat node) 사용법"
         url: / 
   - title: "뉴론"
     children:
