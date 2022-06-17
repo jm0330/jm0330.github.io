@@ -280,7 +280,7 @@ compress_html:
 
 # Collections
 collections:
-  docs:
+  guidebook:
     output: true
     permalink: /:collection/:path/
 
@@ -304,10 +304,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+  # _guidebook
   - scope:
       path: ""
-      type: docs
+      type: guidebook
     values:
       layout: single
       read_time: false
@@ -315,4 +315,4 @@ defaults:
       share: false
       comments: false
      # sidebar:
-     #   nav: "docs"
+     #   nav: "guidebook"
