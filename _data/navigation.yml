@@ -29,3 +29,8 @@ ksc:
           url: /
   - title: "상용 소프트웨어"
 
+ksc2:
+  - title: "사용법"
+    children:
+    - title: "누리온"
+      url: /

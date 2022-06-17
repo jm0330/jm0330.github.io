@@ -9,7 +9,10 @@ toc_label: "누리온 시스템 사양 및 구성"
 toc_sticky: true
 sidebar:
     title: "KSC 지침서"
-    nav: ksc
+    nav: 
+       - ksc
+       - ksc2
+
 ---
 
 # 가. 개요
