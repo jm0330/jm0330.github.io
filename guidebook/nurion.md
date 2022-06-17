@@ -7,11 +7,6 @@ layouts_gallery:
     image_path: /assets/images/46cGZjtaR1zSlum.png
     alt: "누리온 구성도"
 last_modified_at: 2020-06-25T11:59:26-04:00
-layout: single
-read_time: false
-author_profile: false
-share: false
-comments: false
 ---
 
 ### 가. 개요
