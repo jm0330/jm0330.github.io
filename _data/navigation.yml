@@ -83,23 +83,23 @@ ksc:
       - title: "[별첨8] 딥러닝 프레임워크 병렬화(Horovod) 사용법"
         url: /
   - title: "NURION(ENG)"
-      children:
-        - title: "Nurion System Specifications and Configuration"
-          url: /
-        - title: "User Environment"
-          url: /
-        - title: "User Support"
-          url: /
-        - title: "User Programming Environment"
-          url: /
-        - title: "Job Execution through Scheduler (PBS)"
-          url: /
-        - title: "Miscellaneous Manual"
-          url: /
-        - title: "[Appendix 1] Main Keywords for Job Scripts"
-          url: /
-        - title: "[Appendix 2] Method for Using Lustre Stripe"
-          url: /        
+    children:
+      - title: "Nurion System Specifications and Configuration"
+        url: /
+      - title: "User Environment"
+        url: /
+      - title: "User Support"
+        url: /
+      - title: "User Programming Environment"
+        url: /
+      - title: "Job Execution through Scheduler (PBS)"
+        url: /
+      - title: "Miscellaneous Manual"
+        url: /
+      - title: "[Appendix 1] Main Keywords for Job Scripts"
+        url: /
+      - title: "[Appendix 2] Method for Using Lustre Stripe"
+        url: /        
   - title: "NEURON(ENG)"
         # children:
         # - title: ""
