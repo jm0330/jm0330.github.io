@@ -8,10 +8,10 @@ toc: true
 toc_label: "누리온 시스템 사양 및 구성"
 toc_sticky: true
 sidebar:
-    title: "KSC 지침서"
-    nav: 
-       - ksc
-       - ksc2
+    - title: "사용법"
+      nav: ksc
+    - title: "상용 소프트웨어"
+      nav: ksc2
 
 ---
 
