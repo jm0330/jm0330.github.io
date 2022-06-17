@@ -8,7 +8,7 @@ toc: true
 toc_label: "누리온 시스템 사양 및 구성"
 toc_sticky: true
 sidebar:    
-    - title: "슈퍼컴퓨팅센터 지침서"
+    - title: "KSC 지침서"
       text: "사용법"
       nav: ksc
     #- title: "상용 소프트웨어"
