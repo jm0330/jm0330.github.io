@@ -15,22 +15,58 @@ main:
   - title: "슈퍼컴퓨팅센터 지침서"
     url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
 
-# KSC 지침서
+# KSC 지침서 사용법
 ksc:
-  - title: "사용법"
+  - title: "누리온"
     children:
-    - title: "누리온"
-      children:
-        - title: "누리온 시스템 사양 및 구성"
-          url: /
-        - title: "사용자 환경"
-          url: /
-        - title: "사용자 프로그래밍 환경"
-          url: /
-  - title: "상용 소프트웨어"
+      - title: "누리온 시스템 사양 및 구성"
+        url: /
+      - title: "사용자 환경"
+        url: /
+      - title: "사용자 프로그래밍 환경"
+        url: /
+      - title: "스케줄러(PBS)를 통한 작업 실행"
+        url: /  
+      - title: "사용자 지원"
+        url: /  
+      - title: "[별첨1] 작업 스크립트 주요 키워드"
+        url: /  
+      - title: "[별첨2] Conda 사용법"
+        url: / 
+      - title: "[별첨3] Singularity 컨테이너 사용법"
+        url: / 
+      - title: "[별첨4] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨5] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨6] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨7] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨8] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨9] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨10] Lustre stripe 사용법"
+        url: / 
+      - title: "[별첨11] Lustre stripe 사용법"
+        url: / 
+  - title: "뉴론"
+    children:
+      - title: "누리온 시스템 사양 및 구성"
+        url: /
+      - title: "사용자 환경"
+        url: /
+      - title: "사용자 프로그래밍 환경"
+        url: /
+      - title: "사용자 프로그래밍 환경"
+        url: /  
+  - title: "NURION(ENG)"
+  - title: "NEURON(ENG)"
 
+# KSC 지침서 상용소프트웨어
 ksc2:
   - title: "사용법"
     children:
-    - title: "누리온"
-      url: /
+      - title: "누리온"
+        url: /
