@@ -1,5 +1,9 @@
 # main links
 main:
+  - title: "사용법"
+    url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
+  - title: "상용소프트웨어"
+    url: /docs/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #- title: "About"
@@ -12,8 +16,7 @@ main:
     url: /sitemap/
   - title: "블로그"
     url: /blog/
-  - title: "슈퍼컴퓨팅센터 지침서"
-    url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
+  
 
 # KSC 지침서 사용법
 ksc:
