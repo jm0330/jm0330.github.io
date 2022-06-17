@@ -1,5 +1,8 @@
 ---
+title: "누리온 시스템 사양 및 구성"
+permallink: "/useage/nurion/spec-conf"
 description: 기술지원 > 지침서 > 사용법 > 누리온 > 누리온 시스템 사양 및 구성 > 가. 개요
+last_modified_at: 2020-06-25
 ---
 
 # 가. 개요
