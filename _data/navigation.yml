@@ -14,3 +14,18 @@ main:
     url: /blog/
   - title: "슈퍼컴퓨팅센터 지침서"
     url: /docs/specconf/
+
+
+kcs:
+  - title: "사용법"
+    children:
+    - title: "누리온"
+      children:
+        - title: "누리온 시스템 사양 및 구성"
+          url: /
+        - title: "사용자 환경"
+          url: /
+        - title: "사용자 프로그래밍 환경"
+          url: /
+  - title: "상용 소프트웨어"
+

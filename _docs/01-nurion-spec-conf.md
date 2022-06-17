@@ -1,12 +1,15 @@
 ---
 title: "누리온 시스템 사양 및 구성"
-permalink: "/docs/specconf/"
+permalink: "/docs/사용법/누리온/누리온 시스템 사양 및 구성/"
 excerpt: "누리온 시스템의 사양 및 구성, 계산노드, 인터커넥트 네트워크, 스토리지"
 description: 기술지원 > 지침서 > 사용법 > 누리온 > 누리온 시스템 사양 및 구성 > 가. 개요
 last_modified_at: 2020-06-25
 toc: true
 toc_label: "누리온 시스템 사양 및 구성"
 toc_sticky: true
+sidebar:
+    title: "슈퍼컴퓨터센터 지침서"
+    nav: ksc
 ---
 
 # 가. 개요
