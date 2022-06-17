@@ -13,10 +13,10 @@ main:
   - title: "블로그"
     url: /blog/
   - title: "슈퍼컴퓨팅센터 지침서"
-    url: /docs/specconf/
+    url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
 
-
-kcs:
+# KSC 지침서
+ksc:
   - title: "사용법"
     children:
     - title: "누리온"
