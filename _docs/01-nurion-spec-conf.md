@@ -16,7 +16,6 @@ KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬
 
 또한 누리온은 이러한 연구 개발들을 지원하기 위한 다양한 종류의 소프트웨어를 탑재하고 지속적으로 업그레이드 하고 있으며, 고성능 하드웨어와 유기적인 연동을 통해 최고의 생산성을 유지하기 위해 노력하고 있다. 아울러 최적ㆍ병렬화를 비롯한 다양한 사용자 지원과 거대 문제 및 난제 해결 등을 위한 대형 과제 발굴을 통해서 국가 과학기술 발전과 지능정보사회 구현의 핵심 인프라로서 역할을 수행하고자 한다.
 
-<center>
 
 ![<누리온 구성도>](<누리온 구성도.png>)  
 *[누리온 구성도]*
@@ -158,7 +157,6 @@ KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬
 
 [누리온 시스템 사양 및 구성]
 
-</center>
 
 # 나. 계산노드
 
@@ -167,20 +165,16 @@ KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬
 **KNL(매니코어) 노드**  
 KNL 노드에 장착된 Intel Xeon Phi 7250 프로세서(코드명 Knights Landing)는 1.4GHz 기본 주파수에 68개 코어(hyperthreading off)로 동작한다. L2 캐시 메모리는 34MB이며, 온패키지 메모리인 MCDRAM (Multi-Channel DRAM)은 16GB(대역폭 490GB/s)이다. 노드 당 메모리는 96GB로 16GB DDR4-2400 메모리가 6채널로 구성되어 있다. 2U크기의 인클로저(enclosure)에는 4개의 계산노드가 장착되며, 42U 표준랙에 72개의 계산노드로 구성되어 있다.
 
-<center>
-
 ![\[KNL 기반 계산노드 블록 다이어그램\]](<../../../../.gitbook/assets/KNL 기반 계산노드 블록 다이어그램.png>)  
 *[KNL 기반 계산노드 블록 다이어그램]*  
 
 ![\[KNL 기반 계산노드\]](<../../../../.gitbook/assets/KNL 기반 계산노드.png>)  
 *[KNL 기반 계산노드]*  
-</center>
+
 
 
 **SKL(CPU-only) 노드**
 SKL(CPU-only) 노드에는 2개의 Intexl Xeon Gold 6148 프로세서(코드명 Skylake)가 장착되어 있다. 기본 주파수는 2.4GHz이며 20개의 CPU 코어(hyperthreading off)로 구성된다. L3 캐시 메모리는 27.5MB이며, 각 CPU당 메모리는 96GB(노드 당 192GB)로 16GB DDR4-2666 메모리가 6채널로 구성되어 있다. 2U크기의 인클로저(enclosure)에는 4개의 계산노드가 장착되어 있다.
-
-<center>
 
 ![\[SKL 기반 CPU-only 노드 블록 다이어그램\]](<../../../../.gitbook/assets/SKL 기반 CPU-only 노드 블록 다이어그램.png>)  
 [SKL 기반 CPU-only 노드 블록 다이어그램]
@@ -188,18 +182,12 @@ SKL(CPU-only) 노드에는 2개의 Intexl Xeon Gold 6148 프로세서(코드명 
 ![\[SKL 기반 CPU-only 노드\]](<../../../../.gitbook/assets/SKL 기반 CPU-only 노드.png>)  
 [SKL 기반 CPU-only 노드]
 
-</center>
-
 # 다. 인터커넥트 네트워크
 
 노드 간 계산 네트워크 및 파일 I/O 통신을 위한 인터커넥트 네트워크로 인텔 OPA(Omni-Path Architecture)를 사용하고 있다. 100Gbps OPA를 사용하여 Fat-Tree 구조로 계산노드 간 50% blocking, 스토리지 간 non-blocking 네트워크로 구성 하였다. 계산노드와 스토리지는 277개의 48포트 OPA Edge 스위치에 연결되며 모든 Edge 스위치는 8대의 768포트 OPA Director 스위치에 연결 하였다.
 
-<center>
-
 ![\[인터커넥트 네트워크 구성도\]](<../../../../.gitbook/assets/인터커넥트 네트워크 구성도.png>)  
 [인터커넥트 네트워크 구성도]
-
-</center>
 
 # 라. 스토리지
 
@@ -208,27 +196,19 @@ Nurion은 IO 처리 및 데이터 보관을 위해 병렬파일시스템과 버�
 
 각 파일시스템은 SFA7700X 스토리지 기반의 메타데이터 서버(MDS)와, ES14KX 스토리지 기반의 오브젝트 스토리지 서버(OSS)로 구성된다. 버스트버퍼는 계산 노드와 병렬파일시스템 사이에서 동작하는 NVMe 기반의 IO 캐시로 약 844TB의 용량을 제공한다. Lustre 파일시스템은 계산노드, 로그인노드, 아카이빙 서버(Data Mover)에 마운트되어 IO 서비스를 제공한다.
 
-<center>
-
 ![\[병렬파일시스템 및 버스트버퍼 전체 랙 구성\]](<../../../../.gitbook/assets/병렬파일시스템 및 버스트버퍼 전체 랙 구성.png>)  
 *[병렬파일시스템 및 버스트버퍼 전체 랙 구성]*
 
 ![\[PFS 서버 구성\]](<../../../../.gitbook/assets/PFS 서버 구성.png>)  
 [PFS 서버 구성]
 
-</center>
-
 
 **버스트버퍼**  
 -개요  
 버스트버퍼(Burst Buffer, 이하 BB)는 계산노드와 스토리지 (/scratch) 사이의 I/O 가속화를 위한 캐시 레이어로 병렬파일시스템의 small I/O 또는 random I/O에 대한 낮은 성능 보완 및 병렬 IO의 성능 극대화를 위해 5호기에 새로이 도입되었다. I/O 의존성이 높은 사용자 어플리케이션의 성능 향상을 목표로 하고 있으며, KNL 노드를 사용하는 모든 큐에 대해 지원하고 있다.
 
-<center>
-
 ![\[Burst Buffer 역할\]](<Burst Buffer 역할.png>) &nbsp; ![\[Burst Buffer 서버 구성\]](<Burst Buffer 서버 구성.png>)  
 [Burst Buffer 역할]
-
-</center>
 
 -시스템 구성  
 BB 구성을 위해 DDN사의 IME240 솔루션이 적용되었으며, 위 \[Burst Buffer 서버 구성] 그림은 BB의 상세 구성을 나타낸다.
@@ -269,7 +249,7 @@ BB 구성을 위해 DDN사의 IME240 솔루션이 적용되었으며, 위 \[Burs
 </tr>
 </tbody>
 </table>
-<center>[IME 단일노드 구성]</center>
+[IME 단일노드 구성]
 
 <br/>
 
@@ -297,6 +277,6 @@ BB 구성을 위해 DDN사의 IME240 솔루션이 적용되었으며, 위 \[Burs
 </tr>
 </tbody>
 </table>
-<center>[버스트버퍼 전체 구성]</center>
+[버스트버퍼 전체 구성]
 
 *EC : Erasure Coding (설정은 변경될 수 있음)
