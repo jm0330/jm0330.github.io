@@ -22,11 +22,11 @@ sidebar:
 ## 1. 사용정책
 
 \- 한 사용자 아이디 당 **최대** **32개 CPU 코어 수행 가능**합니다.  
-**- 한정된 라이선스를 슈퍼컴 사용자들이 함께 사용하므로, 사용정책 기준을 초과하여 사용할 경우 해당 작업은 관리자가 강제 종료 합니다.**  
-**- 부득이하게 많은 라이선스가 필요할 경우, KISTI 홈페이지([https://www.ksc.re.kr](https://www.ksc.re.kr/))를 통해 사전에 관리자와 협의해야 합니다.**  
+<span style="color:red">**- 한정된 라이선스를 슈퍼컴 사용자들이 함께 사용하므로, 사용정책 기준을 초과하여 사용할 경우 해당 작업은 관리자가 강제 종료 합니다.**  
+**- 부득이하게 많은 라이선스가 필요할 경우, KISTI 홈페이지([https://www.ksc.re.kr](https://www.ksc.re.kr/))를 통해 사전에 관리자와 협의해야 합니다.**</span>  
 \- 작업 제출 전 "lic_check" 명령 에서 메뉴 선택을 통해 라이선스 상태를 확인 한 다음 작업을 제출하시기 바랍니다.  
-**- 누리온시스템 로그인 노드의 과부하 방지를 위해 pre/post 작업은 허가하지 않습니다.**  
-**- 2019년 3월 PM 이후(3월14일)부터 작업제출 스크립트에 "#PBS -A nastran" 옵션을 사용해야 합니다.**  
+<span style="color:red">**- 누리온시스템 로그인 노드의 과부하 방지를 위해 pre/post 작업은 허가하지 않습니다.**  
+**- 2019년 3월 PM 이후(3월14일)부터 작업제출 스크립트에 "#PBS -A nastran" 옵션을 사용해야 합니다.**</span>  
 
 ## 2. 소프트웨어 설치 정보  
 ### (1) 설치 버전  
@@ -110,7 +110,7 @@ $ cp /apps/commercial/MSC/Nastran/conf/nast20182rc ./.nast20182rc
 
 cd $PBS_O_WORKDIR
 
-/apps/commercial/MSC/Nastran/bin/nast20182 car_mod_freq.bdf smp=$NCPUS batch=no sdir="."
+/apps/commercial/MSC/Nastran/bin/nast20182 <span style="color: #ff0000;">car_mod_freq.bdf</span> smp=$NCPUS batch=no sdir="."
 </code></pre></div></div>
 
  \- 위에서 파란색으로 표기된 부분은 사용자가 적절히 수정해야 합니다.  
