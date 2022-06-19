@@ -136,7 +136,7 @@ ksc2:
   - title: "누리온(NURION)"
     children:
       - title: "NASTRAN 사용자 지침서"
-        url: /
+        url: /docs/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
       - title: "가우시안16(Gaussian16) LINDA 지침서"
         url: /
       - title: "가우시안16(Gaussian16) 지침서"
