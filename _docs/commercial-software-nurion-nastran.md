@@ -111,7 +111,7 @@ $ cp /apps/commercial/MSC/Nastran/conf/nast20182rc ./.nast20182rc
 cd $PBS_O_WORKDIR
 
 /apps/commercial/MSC/Nastran/bin/nast20182 car_mod_freq.bdf smp=$NCPUS batch=no sdir="."
-</pre></code></div></div>
+</code></pre></div></div>
 
  \- 위에서 파란색으로 표기된 부분은 사용자가 적절히 수정해야 합니다.  
  \- **2019년 3월 PM 이후(3월14일)부터 "#PBS -A nastran" 옵션이 없는 경우 작업제출이 되지 않습니다.**  
