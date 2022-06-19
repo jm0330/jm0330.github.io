@@ -111,7 +111,8 @@ $ cp /apps/commercial/MSC/Nastran/conf/nast20182rc ./.nast20182rc
 cd $PBS_O_WORKDIR
 
 /apps/commercial/MSC/Nastran/bin/nast20182 car_mod_freq.bdf smp=$NCPUS batch=no sdir="."
-```
+```  
+
 <pre>#!/bin/sh<br>#PBS -V<br>#PBS -N&nbsp;<span style="color: #0000ff;">Nastran_job</span><br>#PBS -q commercial<br>#PBS -l select=1:ncpus=<span style="color: #0000ff;">40</span>:mpiprocs=1:ompthreads=<span style="color: #0000ff;">40</span><br>#PBS -l walltime=<span style="color: #0000ff;">04:00:00<br></span><span style="color: #ff0000;">#PBS -A nastran</span><br><br>cd $PBS_O_WORKDIR<br><br>/apps/commercial/MSC/Nastran/bin/nast20182&nbsp;<span style="color: #0000ff;">car_mod_freq.bdf</span>&nbsp;smp=$NCPUS batch=no sdir="."</pre>
 
  \- 위에서 파란색으로 표기된 부분은 사용자가 적절히 수정해야 합니다.  
