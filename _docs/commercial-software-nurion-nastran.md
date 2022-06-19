@@ -99,21 +99,19 @@ $ cp /apps/commercial/MSC/Nastran/conf/nast20182rc ./.nast20182rc
  \- 예제 파일 : /apps/commercial/test_samples/MSC_NASTRAN/nast_20182.cmd   
 
 ※ 아래 예제는 누리온 시스템 에서의 NASTRAN에 대한 예제입니다.  
-```
-#!/bin/sh
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/sh
 #PBS -V
-#PBS -N Nastran_job
+#PBS -N <span style="color:#0000ff">Nastran_job</span>
 #PBS -q commercial
-#PBS -l select=1:ncpus=40:mpiprocs=1:ompthreads=40
-#PBS -l walltime=04:00:00
-#PBS -A nastran
+#PBS -l select=1:ncpus=<span style="color:#0000ff">40</span>:mpiprocs=1:ompthreads=<span style="color:#0000ff">40</span>
+#PBS -l walltime=<span style="color:#0000ff">04:00:00</span>
+<span style="color: #ff0000;">#PBS -A nastran</span>
 
 cd $PBS_O_WORKDIR
 
 /apps/commercial/MSC/Nastran/bin/nast20182 car_mod_freq.bdf smp=$NCPUS batch=no sdir="."
-```  
-
-<pre>#!/bin/sh<br>#PBS -V<br>#PBS -N&nbsp;<span style="color: #0000ff;">Nastran_job</span><br>#PBS -q commercial<br>#PBS -l select=1:ncpus=<span style="color: #0000ff;">40</span>:mpiprocs=1:ompthreads=<span style="color: #0000ff;">40</span><br>#PBS -l walltime=<span style="color: #0000ff;">04:00:00<br></span><span style="color: #ff0000;">#PBS -A nastran</span><br><br>cd $PBS_O_WORKDIR<br><br>/apps/commercial/MSC/Nastran/bin/nast20182&nbsp;<span style="color: #0000ff;">car_mod_freq.bdf</span>&nbsp;smp=$NCPUS batch=no sdir="."</pre>
+</pre></code></div></div>
 
  \- 위에서 파란색으로 표기된 부분은 사용자가 적절히 수정해야 합니다.  
  \- **2019년 3월 PM 이후(3월14일)부터 "#PBS -A nastran" 옵션이 없는 경우 작업제출이 되지 않습니다.**  
