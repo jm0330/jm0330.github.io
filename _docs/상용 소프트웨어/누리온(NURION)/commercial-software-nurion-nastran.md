@@ -1,6 +1,6 @@
 ---
 title: "NASRAN 사용자 지침서"
-permalink: "/docs/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/"
+permalink: "/지침서/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/"
 excerpt: "본 문서는 누리온 시스템에서 NASTRAN 소프트웨어 사용을 위한 기초적인 정보를 제공하고 있습니다."
 description: 기술지원 > 지침서 > 사용법 > 누리온 > 누리온 시스템 사양 및 구성 > 가. 개요
 last_modified_at: 2022-05-11

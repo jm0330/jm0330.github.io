@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "사용법"
-    url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
+    url: /지침서/사용법/누리온/누리온 시스템 사양 및 구성/
   - title: "상용소프트웨어"
-    url: /docs/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
+    url: /지침서/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #- title: "About"
@@ -23,11 +23,11 @@ ksc:
   - title: "누리온"
     children:
       - title: "누리온 시스템 사양 및 구성"
-        url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
+        url: /지침서/사용법/누리온/누리온 시스템 사양 및 구성/
       - title: "사용자 환경"
-        url: /docs/사용법/누리온/사용자 환경/
+        url: /지침서/사용법/누리온/사용자 환경/
       - title: "사용자 프로그래밍 환경"
-        url: /
+        url: /지침서/사용법/누리온/사용자 프로그래밍 환경/
       - title: "스케줄러(PBS)를 통한 작업 실행"
         url: /  
       - title: "사용자 지원"
@@ -136,7 +136,7 @@ ksc2:
   - title: "누리온(NURION)"
     children:
       - title: "NASTRAN 사용자 지침서"
-        url: /docs/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
+        url: /지침서/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
       - title: "가우시안16(Gaussian16) LINDA 지침서"
         url: /
       - title: "가우시안16(Gaussian16) 지침서"
