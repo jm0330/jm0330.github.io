@@ -176,11 +176,13 @@ KISTI 슈퍼컴퓨터 5호기 누리온(NURION)은 리눅스 기반의 초병렬
 **KNL(매니코어) 노드**  
 KNL 노드에 장착된 Intel Xeon Phi 7250 프로세서(코드명 Knights Landing)는 1.4GHz 기본 주파수에 68개 코어(hyperthreading off)로 동작한다. L2 캐시 메모리는 34MB이며, 온패키지 메모리인 MCDRAM (Multi-Channel DRAM)은 16GB(대역폭 490GB/s)이다. 노드 당 메모리는 96GB로 16GB DDR4-2400 메모리가 6채널로 구성되어 있다. 2U크기의 인클로저(enclosure)에는 4개의 계산노드가 장착되며, 42U 표준랙에 72개의 계산노드로 구성되어 있다.
 
-![\[KNL 기반 계산노드 블록 다이어그램\]](<../../../../.gitbook/assets/KNL 기반 계산노드 블록 다이어그램.png>){: algin-cetner}
-*[KNL 기반 계산노드 블록 다이어그램]*{: .text-center}  
+![KNL 기반 계산노드 블록 다이어그램](</ksc2/images/docs/KNL 기반 계산노드 블록 다이어그램.png>)
+[KNL 기반 계산노드 블록 다이어그램]
+{: .text-center .align-center}  
 
-![\[KNL 기반 계산노드\]](<../../../../.gitbook/assets/KNL 기반 계산노드.png>)  
-*[KNL 기반 계산노드]*  
+![\[KNL 기반 계산노드\]](</ksc2/images/docs/KNL 기반 계산노드.png>)  
+[KNL 기반 계산노드]
+{: .text-center .align-center}    
 
 
 
@@ -218,8 +220,9 @@ Nurion은 IO 처리 및 데이터 보관을 위해 병렬파일시스템과 버�
 -개요  
 버스트버퍼(Burst Buffer, 이하 BB)는 계산노드와 스토리지 (/scratch) 사이의 I/O 가속화를 위한 캐시 레이어로 병렬파일시스템의 small I/O 또는 random I/O에 대한 낮은 성능 보완 및 병렬 IO의 성능 극대화를 위해 5호기에 새로이 도입되었다. I/O 의존성이 높은 사용자 어플리케이션의 성능 향상을 목표로 하고 있으며, KNL 노드를 사용하는 모든 큐에 대해 지원하고 있다.
 
-![\[Burst Buffer 역할\]](<Burst Buffer 역할.png>) &nbsp; ![\[Burst Buffer 서버 구성\]](<Burst Buffer 서버 구성.png>)  
+![\[Burst Buffer 역할\]](</ksc2/images/docs/Burst Buffer 역할.png>) &nbsp; ![\[Burst Buffer 서버 구성\]](</ksc2/images/docs/Burst Buffer 서버 구성.png>)  
 [Burst Buffer 역할]
+{: .text-center .align-center}
 
 -시스템 구성  
 BB 구성을 위해 DDN사의 IME240 솔루션이 적용되었으며, 위 \[Burst Buffer 서버 구성] 그림은 BB의 상세 구성을 나타낸다.
