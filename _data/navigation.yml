@@ -3,7 +3,7 @@ main:
   - title: "사용법"
     url: /docs/사용법/누리온/누리온 시스템 사양 및 구성/
   - title: "상용소프트웨어"
-    url: /docs/
+    url: /docs/상용소프트웨어/누리온(NURION)/NASTRAN 사용자 지침서/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #- title: "About"
